@@ -43,6 +43,6 @@ public class Loan {
         this.startingDate=startingDate;
     }
     public void setMinPayment(double minPayment){
-        this.minPayment=minPayment
+        this.minPayment=minPayment;
     }
 }
