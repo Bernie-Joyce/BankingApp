@@ -42,7 +42,7 @@ public class User {
         return this.loanList;
     }
 
-    public String setPin(int pin){
+    public void setPin(int pin){
         pin = this.pin;
     }
     public void setBalance(double balance) {
