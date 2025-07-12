@@ -21,7 +21,29 @@ public class User {
         dateOfBirth = LocalDate.MIN;
         name = "";
     }
+    public int getPin(){
+        return this.pin;
+    }
+    public double getBalance(){
+        return this.balance;
+    }
+    public LocalDate getDateOfBirth(){
+        return this.dateOfBirth;
+    }
+    public String getName(){
+        return this.name;
+    }
 
-
-
+    public String setPin(int pin){
+        pin = this.pin;
+    }
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+    public void setDateOfBirth(LocalDate dateOfBirth){
+        this.dateOfBirth=dateOfBirth;
+    }
 }
