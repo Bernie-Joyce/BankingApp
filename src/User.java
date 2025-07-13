@@ -57,4 +57,14 @@ public class User {
     public void setLoanList(ArrayList<Loan> loanList){
         this.loanList=loanList;
     }
+
+    @Override
+    public String toString(){
+        return "User details:\n" +
+                "Full Name: "+ name + "\n" +
+                "Date Of Birth: "+ dateOfBirth + "\n" +
+                "Bank Account Balance: "+ balance + "\n" +
+                "Pin: " + pin + "\n" +
+                "List of loans: \n" + loanList.toString() + "\n";
+    }
 }
