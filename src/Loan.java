@@ -45,4 +45,14 @@ public class Loan {
     public void setMinPayment(double minPayment){
         this.minPayment=minPayment;
     }
-}
+    @Override
+    public String toString() {
+        return "Loan:\n" +
+                "Loan Balance: " + loanBalance + "\n" +
+                "Interest Rate: " + intrestRate + "\n" +
+                "Starting Date: " + startingDate + "\n" +
+                "Minimum Monthly Payment: " + minPayment + "\n";
+    }
+
+    }
+
